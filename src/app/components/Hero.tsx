@@ -28,7 +28,7 @@ export default function Hero() {
               {...fadeIn}
               transition={{ delay: 0.8 }}
             >
-              Dev Chawla
+              Dev
             </motion.span>
           </motion.h1>
           <motion.p 
@@ -36,7 +36,7 @@ export default function Hero() {
             {...fadeInUp}
             transition={{ delay: 0.4 }}
           >
-            Frontend Developer | Backend Developer | UI/UX Enthusiast
+            Frontend Developer | UI/UX Enthusiast
           </motion.p>
           <motion.div 
             className="flex justify-center space-x-4 mb-8"
@@ -44,7 +44,7 @@ export default function Hero() {
             transition={{ delay: 0.5 }}
           >
             <motion.a
-              href="https://github.com/devchawla04"
+              href="https://github.com/dev152004"
               target="_blank"
               rel="noopener noreferrer"
               className="text-2xl text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary transition-colors"
@@ -54,7 +54,7 @@ export default function Hero() {
               <FaGithub />
             </motion.a>
             <motion.a
-              href="https://linkedin.com/in/devchawla04"
+              href="https://linkedin.com/in/dev152004"
               target="_blank"
               rel="noopener noreferrer"
               className="text-2xl text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary transition-colors"

@@ -1,6 +1,6 @@
 'use client'
 
-import { FaCode, FaLaptopCode, FaGraduationCap } from 'react-icons/fa'
+import { FaCode, FaGraduationCap } from 'react-icons/fa'
 import { motion } from 'framer-motion'
 import { 
   fadeInUp, 
@@ -44,17 +44,17 @@ export default function About() {
           Skills
         </motion.h2>
         <motion.div 
-          className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+          className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6"
           variants={staggerContainer}
           initial="initial"
           animate="animate"
         >
           <motion.div 
-            className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
+            className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md text-center"
             variants={fadeInUp}
             {...cardHover}
           >
-            <FaCode className="h-8 w-8 text-primary mb-4" />
+            <FaCode className="h-8 w-8 text-primary mb-4 inline-block" />
             <h3 className="text-xl font-semibold mb-2">Frontend</h3>
             <ul className="text-secondary space-y-2">
               <li>React / Next.js</li>
@@ -65,26 +65,11 @@ export default function About() {
           </motion.div>
           
           <motion.div 
-            className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
+            className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md text-center"
             variants={fadeInUp}
             {...cardHover}
           >
-            <FaLaptopCode className="h-8 w-8 text-primary mb-4" />
-            <h3 className="text-xl font-semibold mb-2">Backend</h3>
-            <ul className="text-secondary space-y-2">
-              <li>.NET</li>
-              <li>C#</li>
-              <li>LINQ</li>
-              <li>SQL Server</li>
-            </ul>
-          </motion.div>
-          
-          <motion.div 
-            className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
-            variants={fadeInUp}
-            {...cardHover}
-          >
-            <FaGraduationCap className="h-8 w-8 text-primary mb-4" />
+            <FaGraduationCap className="h-8 w-8 text-primary mb-4 inline-block" />
             <h3 className="text-xl font-semibold mb-2">Tools & Others</h3>
             <ul className="text-secondary space-y-2">
               <li>Git / GitHub</li>
