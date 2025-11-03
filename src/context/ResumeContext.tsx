@@ -22,10 +22,10 @@ export function ResumeProvider({ children }: { children: ReactNode }) {
           const blob = await res.blob();
           setPdfUrl(URL.createObjectURL(blob));
         } else {
-          setPdfUrl("/Dev_Chawla_Resume.pdf");
+          setPdfUrl("/Dev_Resume.pdf");
         }
       } catch {
-        setPdfUrl("/Dev_Chawla_Resume.pdf");
+        setPdfUrl("/Dev_Resume.pdf");
       }
     }
     fetchResume();
